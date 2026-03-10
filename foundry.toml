@@ -1,0 +1,13 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+evm_version = "shanghai"
+
+# To fork Ethereum mainnet, uncomment and set your RPC:
+# [profile.fork]
+# eth_rpc_url = "https://eth-mainnet.alchemyapi.io/v2/YOUR_KEY"
+# fork_block_number = 21889999
+
+[fuzz]
+runs = 256
